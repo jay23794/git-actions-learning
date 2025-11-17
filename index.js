@@ -8,7 +8,7 @@ app.get('/health', (req, res) => {
     timestamp: new Date().toISOString()
   });
 });
-let c = "ss"
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
